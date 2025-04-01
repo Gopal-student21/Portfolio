@@ -58,10 +58,15 @@
   font-variation-settings:
     "wdth" 100;
 }
-.transis:hover{
-  transition: 0.5s ;
-  transition-timing-function: ease-in-out  
+.transis {
+  transition: all 0.5s ease-in-out; /* Smooth transition */
 }
+
+.transis:hover {
+  transform: scale(1.1); /* Slightly increase size */
+  box-shadow: 0px 0px 15px 5px rgba(138, 43, 226, 0.8); /* Purple glowing effect */
+}
+
 /* From Uiverse.io by e-coders */ 
 button {
   background-color:rgb(168, 89, 233);
