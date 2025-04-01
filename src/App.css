@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+ body {
+  background: #000;
+  color: white;
+ }
+ .bg-color{
+    background-color: #282829;
+ }
+ .font{
+      font-family: 'Poppins', sans-serif;
+ }
+ .mail::before {
+   content: "";
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   background-image: url("https://img.icons8.com/?size=100&id=63&format=png&color=FFFFFF");
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-right: 8px;
+ }
+ .hov:hover{
+    color: #e3ce56da;
+    width: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: translateY(-5px);
+ }
+
+ .call::before {
+   content: "";
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   background-image: url("https://img.icons8.com/?size=100&id=14187&format=png&color=FFFFFF");
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-right: 8px;
+ }
+ .location::before {
+   content: "";
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   background-image: url("https://img.icons8.com/?size=100&id=HLsVIJtJGbew&format=png&color=FFFFFF");
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-right: 8px;
+ }
+ 
+ 
+ .tektur-name{
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.transis:hover{
+  transition: 0.5s ;
+  transition-timing-function: ease-in-out  
+}
+/* From Uiverse.io by e-coders */ 
+button {
+  background-color:rgb(168, 89, 233);
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #313030;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+ }
+ 
+ button:disabled {
+  pointer-events: none;
+ }
+ 
+ button:hover {
+  color: #fff;
+  background-color: #5f30d5;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ 
+ button:active {
+  box-shadow: none;
+  transform: translateY(0);
+ }
+ .red{
+  color: #9333ea;
+  font-size: 1.5rem;
+  font-weight: 600;
+ }
