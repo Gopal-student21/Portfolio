@@ -1,6 +1,6 @@
 import React from 'react'
 import Primary from './primary'
-import Second from './second'
+import Second from './Second'
 
 const Home = () => {
   return (
