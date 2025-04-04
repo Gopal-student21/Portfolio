@@ -166,3 +166,6 @@ button {
 .animation {
   animation: fadeIn 2s ease-out;
 }
+textarea {
+  height: 200px;
+}
