@@ -16,7 +16,7 @@ const second = () => {
             </span>
             👋
           </h1>
-          <h1 className="inline-block m-1 text-5xl">I am Passonate</h1>
+          <h1 className="inline-block m-1 text-5xl">I am Passionate </h1>
           <div>
             <TypeAnimation
               sequence={[
