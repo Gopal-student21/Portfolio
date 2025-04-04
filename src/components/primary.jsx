@@ -1,8 +1,25 @@
 import React from 'react'
 import SocialIcons from './SocialIcons'
+import { useState, useEffect } from 'react';
 
 const primary = () => {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    // Trigger the animation on mount
+    setAnimate(true);
+
+    // Optional: Reset animation state after the animation ends (if you need it)
+    const timer = setTimeout(() => {
+      setAnimate(false);
+    }, 2000); // 2s is the duration of the animation
+
+    // Clean up the timer when the component unmounts
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
+    
     <div className='w-[25%] flex justify-center items-center flex-col gap-5 m-10 ml-0 p-5 rounded-2xl bg-[#1E1E1F] shadow-[0_10px_30px_rgba(255,255,255,0.1)]'>
       <div className='flex flex-col items-center gap-5'>
       <img className='w-40 rounded-2xl mt-10 drop-shadow-2xl' src="/profile-pic.png" alt="profile-Img"/>
@@ -21,6 +38,7 @@ const primary = () => {
       </div>
       
     </div>
+  
   )
 }
 
