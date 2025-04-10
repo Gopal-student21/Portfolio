@@ -169,3 +169,91 @@ button {
 textarea {
   height: 200px;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+      .responsive{
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+      flex-direction: column;
+      width: 100%;
+      margin: 10px;
+      flex-shrink: 1;
+      position: relative;
+      }
+      .responsive-primary {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 90vw;
+      margin: 0px;
+      flex-shrink: 1;
+      
+      }
+      .responsive-primary1{
+        margin: 10px;
+        
+      }
+      .responsive-secondary {
+        font-size: small;
+        margin: 10px;
+      }
+      .responsive-secondary2{
+      margin-left: 10px;
+      margin-top: 0px;
+      height: 80%;
+    
+      }
+      .respons-c{
+        display: none;
+      }
+      .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 90vw;
+        margin: 10px;
+        margin-left: 35px;
+        position: fixed;
+        bottom: 0px;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        /* border: 2px solid red; */
+      }
+      .img{
+        width: 300px;
+        height: auto;
+      }
+      .font{
+        font-size: 16px;        
+      }
+      .font2{
+        font-size: 30px;
+      }
+     .responsive-contact{
+      display: flex;
+      width: 90vw;
+      margin-left: 10px;
+      margin-top: 0px;
+     }
+     .responsive-contact2{
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+     }
+     .responsive-project{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      height: 840px;
+      padding-bottom: 600px;
+     }
+     .res-button{
+      width: 150px;
+      height: 60px;
+     }
+}
